@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Roboto&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Spline Sans",sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation */
+.nav-item {
+    font-size: 36px;
+}
+
+/* main content */
+.bg-gray {
+    background-color: lightgray;
+}
+p {
+    font-size: 15px;
+}
+.navbar-brand img {
+    height: 100%;
+    margin-right: 20px;
+}
+#chicken {
+    width: 100%;
+}
+
+
+@media only screen and (min-width : 768px) {
+    .navbar-toggler {
+         display: none!important;
+     }
+    .nav-item {
+        display: none !important;
+    }
+    .nav-link {
+        text-align: center; 
+    }
+
+ }
+ @media(min-width: 576px) and (max-width: 767px) {
+    
+    .row {
+        justify-content: space-evenly;
+    }
+    #chicken {
+        
+        margin: 0 auto 10px;
+    }
+    #beef {
+        
+        margin: 0 auto 10px;   
+    }
+    #sushi {
+        width: 600px;
+    }
+ }
+
+ @media(max-width: 575px) {
+    .row {
+        justify-content: space-evenly;
+    }
+    .col-sm-12 {
+        width: 90%;
+        margin: auto 30px 25px 30px;
+    }
+ }
